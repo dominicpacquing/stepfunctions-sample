@@ -44,3 +44,7 @@ Deploy
 Invoking state machine
 
         AWS_PROFILE=personal node_modules/.bin/sls invoke stepf --name simple-maths --data '{"x":42, "y": 13}'
+        
+Destroy the stack
+
+       AWS_PROFILE=personal node_modules/.bin/sls remove
